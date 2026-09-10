@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: all  # or group name
   become: true
   tasks: 
   # - name: Install apache
